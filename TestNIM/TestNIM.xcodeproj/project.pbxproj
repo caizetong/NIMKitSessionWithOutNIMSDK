@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42BF8EA123162F9800BE515B /* NIMSessionListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BF8E9C23162F9800BE515B /* NIMSessionListViewController.m */; };
+		42BF8EA223162F9800BE515B /* NIMSessionListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BF8E9E23162F9800BE515B /* NIMSessionListCell.m */; };
 		42F7921F2313B03A0054B30F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F7921E2313B03A0054B30F /* AppDelegate.m */; };
 		42F792222313B03A0054B30F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F792212313B03A0054B30F /* ViewController.m */; };
 		42F792252313B03A0054B30F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42F792232313B03A0054B30F /* Main.storyboard */; };
@@ -367,6 +369,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		42BF8E9C23162F9800BE515B /* NIMSessionListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIMSessionListViewController.m; sourceTree = "<group>"; };
+		42BF8E9E23162F9800BE515B /* NIMSessionListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIMSessionListCell.m; sourceTree = "<group>"; };
+		42BF8E9F23162F9800BE515B /* NIMSessionListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMSessionListCell.h; sourceTree = "<group>"; };
+		42BF8EA023162F9800BE515B /* NIMSessionListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMSessionListViewController.h; sourceTree = "<group>"; };
 		42F7921A2313B03A0054B30F /* TestNIM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestNIM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42F7921D2313B03A0054B30F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		42F7921E2313B03A0054B30F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -924,6 +930,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42BF8E9B23162F9800BE515B /* SessionList */ = {
+			isa = PBXGroup;
+			children = (
+				42BF8E9C23162F9800BE515B /* NIMSessionListViewController.m */,
+				42BF8E9D23162F9800BE515B /* View */,
+				42BF8EA023162F9800BE515B /* NIMSessionListViewController.h */,
+			);
+			path = SessionList;
+			sourceTree = "<group>";
+		};
+		42BF8E9D23162F9800BE515B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				42BF8E9E23162F9800BE515B /* NIMSessionListCell.m */,
+				42BF8E9F23162F9800BE515B /* NIMSessionListCell.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		42F792112313B03A0054B30F = {
 			isa = PBXGroup;
 			children = (
@@ -1412,6 +1437,7 @@
 		42FD8FDC23151E7800FD712C /* Sections */ = {
 			isa = PBXGroup;
 			children = (
+				42BF8E9B23162F9800BE515B /* SessionList */,
 				42FD8FF123151E7800FD712C /* Util */,
 				42FD900323151E7800FD712C /* Input */,
 				42FD901F23151E7800FD712C /* Common */,
@@ -2058,6 +2084,7 @@
 				42F794FE2313B6D10054B30F /* SDWebImagePrefetcher.m in Sources */,
 				42FD917623151E7900FD712C /* M80AttributedLabel+NIMKit.m in Sources */,
 				42F794EC2313B6D00054B30F /* SDImageCoder.m in Sources */,
+				42BF8EA123162F9800BE515B /* NIMSessionListViewController.m in Sources */,
 				42F7951A2313B6D10054B30F /* SDImageCacheConfig.m in Sources */,
 				42FD917223151E7900FD712C /* NSString+NIMKit.m in Sources */,
 				42F795102313B6D10054B30F /* SDWebImageDownloaderOperation.m in Sources */,
@@ -2189,6 +2216,7 @@
 				42F794F42313B6D10054B30F /* SDImageLoader.m in Sources */,
 				42FD915B23151E7900FD712C /* NIMSessionConfigurator.m in Sources */,
 				42FD915C23151E7900FD712C /* NIMSessionInteractorImpl.m in Sources */,
+				42BF8EA223162F9800BE515B /* NIMSessionListCell.m in Sources */,
 				42F795142313B6D10054B30F /* SDImageTransformer.m in Sources */,
 				42F795012313B6D10054B30F /* MKAnnotationView+WebCache.m in Sources */,
 				42F794FF2313B6D10054B30F /* SDImageCoderHelper.m in Sources */,
